@@ -2,18 +2,20 @@
   <v-app>
     <NavBar></NavBar>
     <v-main>
-      <router-view/>
+      <router-view />
     </v-main>
+    <BottomNavbar />
   </v-app>
 </template>
 
 <script>
 
+import BottomNavbar from './components/BottomNavbar.vue';
 import NavBar from './components/NavBar.vue';
 
 export default {
   name: 'App',
-  components: {NavBar},
+  components: { NavBar, BottomNavbar },
   data: () => ({
     //
   }),
