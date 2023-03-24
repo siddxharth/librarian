@@ -1,0 +1,20 @@
+:root {
+    --primary: orange;
+    --text-light: #525252;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.base {
+    color: var(--primary);
+}
+
+.base-inverted {
+    background-color: var(--primary) !important;
+    color: white;
+}
