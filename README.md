@@ -1,19 +1,17 @@
 # librarian
 
-## Project setup
+To run this project, clone it using ...
+
+```
+git clone https://github.com/siddxharth/librarian/
+```
+
+and then install all the required dependencies using
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Run the project using
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
