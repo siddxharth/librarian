@@ -1,5 +1,5 @@
 <template>
-	<v-bottom-navigation v-model="value" app>
+	<v-bottom-navigation app>
 		<v-btn value="books" @click="$router.push('/books')">
 			<span>Books</span>
 
